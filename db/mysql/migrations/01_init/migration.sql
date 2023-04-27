@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE `user` (
     `user_id` VARCHAR(36) NOT NULL,
-    `username` VARCHAR(255) NOT NULL,
+    `username` VARCHAR(250) NOT NULL,
     `password` VARCHAR(60) NOT NULL,
     `role` VARCHAR(50) NOT NULL,
     `created_at` TIMESTAMP(0) NULL DEFAULT CURRENT_TIMESTAMP(0),
